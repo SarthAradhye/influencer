@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/bdd89edb33.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+     <link rel="icon" href="/AradhyeTechLogo.png" type="image/icon type">
+    <link rel="stylesheet" href="/buystyle.css" />
+    <title>Get your online space</title>
+  </head>
+  <body>
+    <section class="section-plans" id="section-plans">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          Get your Online space
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front-1">
+              <div class="card__title card__title--1">
+                <i class="fas fa-paper-plane"></i>
+                <h4 class="card__heading">Basic</h4>
+              </div>
+
+              <div class="card__details">
+                <ul>
+                  <li>Static website</li>
+                  <li>10 images</li>
+                  <li>No articles</li>
+                  <li>Free SSL Certificate</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">$82.25* or ₹7000</p>
+                </div>
+                <a onclick="openModal()" class="btn btn--white">Select</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front-2">
+              <div class="card__title card__title--2">
+                <i class="fas fa-plane"></i>
+                <h4 class="card__heading">Plus</h4>
+              </div>
+
+              <div class="card__details">
+                <ul>
+                  <li>50 images</li>
+                  <li>Custom domain</li>
+                  <li>Priority Delivery</li>
+                  <li>Social media integration</li>
+                  <li>Custom email address</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">$117.50* or ₹10000/- *</p>
+                </div>
+                <a onclick="openModal()" class="btn btn--white">Select</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front-3">
+              <div class="card__title card__title--3">
+                <i class="fas fa-rocket"></i>
+                <h4 class="card__heading">Pro</h4>
+              </div>
+
+              <div class="card__details">
+                <ul>
+                  <li>Dynamic Website</li>
+                  <li>Articles</li>
+                  <li>Communication integration</li>
+                  <li>E commerce feature</li>
+                  <li>Online booking</li>
+                  <li>Fully functional online platform</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">Only</p>
+                  <p class="card__price-value">$822.50* or ₹69999/- *</p>
+                </div>
+                <a onclick="openModal()" class="btn btn--white">Select</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Please pay through Scanner and whatsapp us screenshot on +91 8652103136</h2>
+            <img src="/payment.jpg" alt="Modal Image">
+            </div>
+        </div>
+
+      <div class="u-center-text u-margin-top-huge">
+        <h1><b>Please pay through Scanner and whatsapp us screenshot on +91 8652103136</b></h1>
+      </div>
+    </section>
+    <script>
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+
+    // Optional: Close modal when clicking outside the content
+    window.onclick = function(event) {
+      const modal = document.getElementById("myModal");
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+  </body>
+</html>
