@@ -368,5 +368,15 @@ input:checked +.card > .card-img{
     transform: scale(.95) translateX(-5px);
     transition: all .5s ease-in-out;
 } */
+@media (max-width:600px) {
+  .btns{
+    display: grid;
+  }
+  .btns a{
+    width: 8em;
+    padding: 2%;
+    margin: 2%;
+  }
+}
 
 
